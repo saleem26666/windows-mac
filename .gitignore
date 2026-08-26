@@ -1,0 +1,65 @@
+﻿# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+service-account*.json
+config.json
+*.secrets.json
+
+# Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Node / web
+node_modules/
+.npm/
+.next/
+.nuxt/
+coverage/
+
+# Builds and generated binaries
+build/
+dist/
+out/
+release/
+output/
+*.exe
+*.msi
+*.apk
+*.aab
+*.zip
+*.7z
+*.rar
+*.hprof
+
+# Runtime data
+downloads/
+Downloads/
+temp/
+tmp/
+temp_audio/
+temp_subs/
+*.log
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE / operating system
+.idea/
+.vscode/
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Android generated files
+.gradle/
+.cxx/
+**/build/
+local.properties
